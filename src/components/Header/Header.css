@@ -1,0 +1,32 @@
+.header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  margin-left: 36px;
+}
+.header a:hover{
+    color: white;
+}
+
+#logo{
+    width: 40px;
+    height: 50%;
+    margin-right: 10px;
+}
+
+nav h2{
+  color: rgb(35, 35, 193);
+}
+.title{
+    display: flex;
+    align-items: center;
+}

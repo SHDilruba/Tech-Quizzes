@@ -14,7 +14,6 @@ const [topics, setTopics] = useState([]);
        .then(data => setTopics(data.data))
   },[]);
 
- console.log(Topics);
   return (
      <div>
         <Cover></Cover>
@@ -23,7 +22,7 @@ const [topics, setTopics] = useState([]);
         <div className="topics-container">    
            <div className=" row row-cols-1 row-cols-md-2 g-5">
               {
-                topics.map(topic => <Featured topic={topic} key={topic.id}></Featured>)
+                topics.map(featured => <Featured featured={featured} key={featured.id}></Featured>)
              }
          </div>
       </div>

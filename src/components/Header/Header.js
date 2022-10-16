@@ -14,11 +14,10 @@ const Header = () => {
              <h2>Tech Quizzes</h2>
          </div>
           <div>
-              <NavLink to="/">Topics</NavLink>
-              {/* <NavLink className={({isActive}) => isActive ? 'active': undefined} to={'/blog'}>Blog </NavLink> */}
-              <NavLink to="/blog">Blog</NavLink>
-              <NavLink to="/statistics">Statistics</NavLink>
-              <NavLink to="/about">About</NavLink>
+              <Link to="/">Topics</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/statistics">Statistics</Link>
+              <Link to="/about">About</Link>
           </div>
         </nav>     
       </div>

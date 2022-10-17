@@ -2,7 +2,7 @@ import React from 'react';
 import './Quiz.css'
 
 const Quiz = ({quiz}) => {
-  const { question, options, correctAnswer } = quiz;
+  const {id, question, options, correctAnswer } = quiz;
   console.log(quiz)
 
   return (

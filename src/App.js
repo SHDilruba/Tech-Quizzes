@@ -29,14 +29,19 @@ function App() {
         element: <Quizzes></Quizzes>
       },
        {
-          path: "/blog",
-          element: <Blog></Blog>,
+        path: "/blog", 
+        element: <Blog></Blog>,
        },
        {
-         path: "statistics",
+         path: "/statistics",
+         loader: async() =>{
+           return fetch('https://openapi.programming-hero.com/api/quiz')
+         },
          element: <Statistics></Statistics>,
        },
-       { path: '*', element: <div>Sorry, this route is not found (404)</div>},
+       { path: '*',
+         element: <div>Sorry, this route is not found (404)</div>
+        },
     ]
   },
 ])

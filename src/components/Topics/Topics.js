@@ -1,11 +1,9 @@
 import React, { useState, useEffect} from 'react';
-import { useLoaderData } from 'react-router-dom';
 import Cover from '../Cover/Cover';
 import Featured from '../Featured/Featured';
 import './Topics.css'
 
 const Topics = () => {
-//  const topic = useLoaderData();
 const [topics, setTopics] = useState([]);
 
   useEffect( () =>{

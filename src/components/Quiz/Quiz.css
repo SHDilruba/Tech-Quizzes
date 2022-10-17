@@ -1,29 +1,44 @@
 .question-btn button {
     margin-bottom: 10px;
-    width: 50%;
- margin-left: 25%;
+    width: 60%;
+ margin-left: 22%;
  border-radius: 20px;
+}
+.question-btn button{
+    background-color: rgb(42, 42, 169);
+
 }
 .question-btn button:hover{
  background-color: orange;
- /* background-color: rgb(35, 35, 193); */
+}
+.question-btn{
+    text-align: center;
+    margin-right: 36px;
 }
 .question{
     border-radius: 20px;
-    padding: 10px;
-    margin-right: 25%;
-    margin-left: 25%;
-    border: 2px solid orange;
+    padding: 20px 20px 10px 34px;
+    width: 80%;
+    color: rgb(35, 35, 193);
+    font-size: 18px;
 }
 .quiz-container{
-   background-color: rgb(246, 245, 239);
-   padding: 10px 10px 40px 10px;
+   background-color: white;
+   padding: 20px 10px 40px 10px;
+   border: 1px solid;
    border-radius: 20px;
    margin-bottom: 40px;
-   margin-left: 16%;
+   margin-left: 14%;
    margin-right: 16%;
 }
-.quiz{
+.view-ans{
+    display: flex;
+    justify-content: center;
+}
+.view-icon{
+    font-size: 24px;
+    margin-left: 10px;
     color: orange;
-    /* color: rgb(35, 35, 193); */
+    padding-top: 14px;
+    margin-left: 18px;
 }

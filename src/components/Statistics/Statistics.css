@@ -2,3 +2,11 @@
   margin-left: 20%;
   margin-right: 25%;
 }
+
+@media screen and (max-width: 600px){
+  .chart{
+    width:50%;
+    margin-left: 0;
+    margin-right: 0;
+  } 
+}

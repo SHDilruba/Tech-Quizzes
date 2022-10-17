@@ -23,14 +23,12 @@ const Featured = ({featured}) => {
                <h5 className="card-text">Total Quiz: {total}</h5>
            </div>
            <Link to={`/featured/${id}`}>   
-              <button className='btn btn-primary w-50' onClick={handleNavigate}>Start Quiz</button>
+              <button className='btn btn-warning w-50' onClick={handleNavigate}>Start Quiz</button>
           </Link>
          </div>
           </div>
      </div>
   </div>
-
-
   );
 };
 

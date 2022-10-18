@@ -42,3 +42,9 @@
     padding-top: 14px;
     margin-left: 18px;
 }
+
+@media screen and (max-width: 902px){
+    .quiz-container{
+        width: 100%;
+    } 
+}

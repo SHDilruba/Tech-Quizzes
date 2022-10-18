@@ -15,7 +15,7 @@ const Quiz = ({quiz}) => {
 
 const MyToasttest = (e) => {  
   if(e.target.innerHTML === correctAnswer){
-    toast.dark('Congratulations! your answer is correct');        
+    toast.dark('Congratulations! your answer is correct');     
   } 
   else{
     toast.dark('Your answer is incorrect'); 

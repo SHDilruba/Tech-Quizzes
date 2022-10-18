@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "title": "What is the purpose of React Router?",
+    "body": "Client-side routing is required to keep your application in sync with the browser URL. When building single-page applications on the web with multiple views it is a better practice to use display different pages using the router and helps users navigate through them having to refresh the whole web page every time users switch between pages."
+  },
+  {
+    "id": 2,
+    "title": "How does context API works?",
+    "body": "Context provides a way to pass data through the component tree without having to pass props down manually at every level. It returns a consumer and a provider. The provider is a component that it's names suggests provides the state to its children. It will hold the store and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state."
+  },
+  {
+    "id": 3,
+     "title": "What is useRef and how does works?",
+     "body": "useRef is a hook that can be tricky to get to grips with since it's one that you might only meet once in a blue moon. That's by design. It takes in a single function argument. useRef is essentially a box whose current key holds a mutable value. useRef serves a cupple main purposes. Access DOM elements and Persist values across succesive renders."
+   }
+]
+
+

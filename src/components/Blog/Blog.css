@@ -1,0 +1,15 @@
+.post-container{
+       display: flex;
+       align-items: center; 
+       justify-content: center;     
+}
+.blog{
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 902px){
+ .post-container{
+    flex-direction: column;
+ }
+}
+

@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Quizzes from './components/Quizzes/Quizzes';
 import Featured from './components/Featured/Featured';
 import Quiz from './components/Quiz/Quiz';
+import Post from './components/Post/Post';
 
 function App() {
   const router = createBrowserRouter([
@@ -42,8 +43,15 @@ function App() {
            element: <Quiz></Quiz> 
          },
        {
-        path: "/blog", 
+        path: "/blog",
+        loader: async()=>{
+           return fetch('blog.json')
+        },
         element: <Blog></Blog>,
+       },
+       {
+         path:"/post",
+         element: <Post></Post>
        },
        {
          path: "/statistics",

@@ -1,6 +1,7 @@
-** Website name: Tech Quizzes **
+## Website name: 
+# Tech Quizzes
 ## Live link: 
-![Banner](https://tech-online-quizzes.netlify.app/)
+https://tech-online-quizzes.netlify.app/
 
 ## Features:
 + This website specializes in quizzes about technology like React, Javascript, Git, CSS.

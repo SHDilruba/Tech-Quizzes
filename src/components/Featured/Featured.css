@@ -1,6 +1,5 @@
-.featured img{
-     width: 400px;
-}
-.card{
-     height: 400px;
+@media screen and (max-width: 700px) {
+ .card{
+  width: 80%;
+}  
 }

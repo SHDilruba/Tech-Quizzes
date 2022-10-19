@@ -17,7 +17,7 @@ const [topics, setTopics] = useState([]);
         <Cover></Cover>
           <div className="container featured-quiz my-5 py-5">
       <h1 className='text-start mb-5'>Featured quizzes</h1> 
-        <div className="topics-container">    
+        <div className="topics-container container">    
            <div className=" row row-cols-1 row-cols-md-2 g-5">
               {
                 topics.map(featured => <Featured featured={featured} key={featured.id}></Featured>)

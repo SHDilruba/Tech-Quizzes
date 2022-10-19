@@ -1,15 +1,15 @@
 .box{
-  margin: 20px;
+  margin: 10px;
   border: 2px solid orange;
   border-radius: 15px;
   padding: 24px;
-  height: 400px;
+  height: 450px;
   width: 90%;
 }
 .card-box{
-  padding-bottom: 20px;
+  margin-bottom: 70px;
   margin-top: 50px;
-  width: 80%;
+  width: 90%;
 }
 .card-title{
      color: rgb(35, 35, 193);
@@ -23,6 +23,7 @@
   .box{
     width: 100%;
     height: auto;
+    width: 90%;
   } 
 }
   

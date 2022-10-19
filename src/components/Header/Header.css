@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between ;
-  padding-right: 140px;
 }
 .header a{
   text-decoration: none;
@@ -26,5 +25,21 @@
 .title{
   display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 700px){
+  .header a{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 4px;
+    width: 100%;
+  }
+  #logo{
+    margin-right: 0px;
+  }
+  .title h3{
+      font-size: 18px;
+      padding-top: 5px;
+  }
 }
 

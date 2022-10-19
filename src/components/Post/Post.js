@@ -6,10 +6,10 @@ const Post = (props) => {
 
   return (
     <div>
-       <div className="card-box">
+       <div className="card-box container">
   <div className="box">
     <div className="body">
-      <h3 className="card-title">{title}</h3>
+      <h4 className="card-title mb-2">{title}</h4>
       <p className="card-text">{body}</p>
     </div>
    </div>

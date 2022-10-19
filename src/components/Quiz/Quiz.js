@@ -30,7 +30,7 @@ const MyToasttest = (e) => {
        </div>
             <div onClick={MyToastCom} className='view-icon'>
             <ToastContainer theme='theme' /> 
-                <FontAwesomeIcon icon={faEye}></    FontAwesomeIcon>
+                <FontAwesomeIcon icon={faEye}></FontAwesomeIcon>
              </div>
          </div>
            {

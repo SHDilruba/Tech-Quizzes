@@ -1,4 +1,6 @@
 .featured img{
-     width: 300px;
-     height: 300px;
+     width: 400px;
+}
+.card{
+     height: 400px;
 }

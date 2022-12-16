@@ -12,23 +12,23 @@ import Post from './components/Post/Post';
 
 function App() {
   const router = createBrowserRouter([
-    {
-      path:'/',
-      element: <Main></Main>,
-      children: [
+     {
+       path:'/',
+       element: <Main></Main>,
+       children: [
 
-        {
-          path: "/",
-          loader: async() =>{
+      {
+        path: "/",
+        loader: async() =>{
           return fetch('https://openapi.programming-hero.com/api/quiz')
+      },
+         element: <Topics></Topics>,
+      },
+      {
+        path: '/featured',
+        loader: async({params}) =>{
+          return fetch(`https://openapi.programming-hero.com/api/quiz/${params.featuredId}`)
         },
-          element: <Topics></Topics>,
-        },
-        {
-          path: '/featured',
-          loader: async({params}) =>{
-            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.featuredId}`)
-          },
         element: <Featured></Featured>
       },
       {
@@ -38,10 +38,10 @@ function App() {
         },
         element: <Quizzes></Quizzes>
       },
-         {
-           path: "/quiz",
-           element: <Quiz></Quiz> 
-         },
+      {
+        path: "/quiz",
+        element: <Quiz></Quiz> 
+       },
        {
         path: "/blog",
         loader: async()=>{
